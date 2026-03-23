@@ -67,15 +67,6 @@ portfolio/
 └── tsconfig.json
 ```
 
-## Deploy To Vercel
-
-1. Push this project to a GitHub repository.
-2. Go to Vercel and click `Add New...` then `Project`.
-3. Import your repository and keep default Next.js build settings.
-4. Click `Deploy`.
-5. After deployment, update metadata URL in `app/layout.tsx` with your production domain.
-
-## Customization Notes
 
 - Edit personal information in `components/Hero.tsx`, `components/About.tsx`, and `components/Footer.tsx`.
 - Add your profile photo as `public/profile.jpg` to show it in the circular hero avatar.
