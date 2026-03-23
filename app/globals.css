@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: #05131f;
+  background-image: radial-gradient(circle at 12% 12%, rgba(37, 99, 235, 0.2), transparent 30%),
+    radial-gradient(circle at 82% 78%, rgba(14, 165, 233, 0.16), transparent 34%),
+    linear-gradient(180deg, rgba(5, 19, 31, 1) 0%, rgba(3, 12, 22, 1) 100%);
+  color: rgb(248 250 252);
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+*::selection {
+  background: rgba(56, 189, 248, 0.35);
+  color: #f8fafc;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid rgba(56, 189, 248, 0.8);
+  outline-offset: 2px;
+}
+
+main {
+  @apply relative overflow-x-clip;
+}
+
+.section-wrap {
+  @apply py-24 px-6 max-w-6xl mx-auto;
+}
+
+.dot-grid-bg {
+  background-image: radial-gradient(circle at 1px 1px, rgba(56, 189, 248, 0.16) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.card-surface {
+  @apply rounded-2xl border border-slate-700 bg-slate-800/50;
+}
+
+.text-muted {
+  @apply text-slate-400;
+}
+
+.text-subtle {
+  @apply text-slate-300;
+}
