@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Bridging the gap between LLM research and production-ready web applications.",
     type: "website",
-    url: "https://javaidb.dev"
+    url: "https://portfolio-website-seven-sandy-51.vercel.app/"
   },
   twitter: {
     card: "summary_large_image",
